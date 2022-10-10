@@ -1,0 +1,11 @@
+@media (max-width: 1279px) and (min-width: 992px) {
+    :root {
+        --main-text-size: 46px;
+        --secondary-text-size: 12px;
+        --header-text-size: 32px;
+        --content-text-size: 14px;
+        --card-header-text-size: 15px;
+        --program-card-header-text-size: 17px;
+    }
+    
+}
