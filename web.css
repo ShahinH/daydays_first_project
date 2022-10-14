@@ -59,6 +59,7 @@ h1 {
 .text-box{
 width: 660px;
 margin-right: 100px;
+margin-bottom: 30px;
 }
 
 .image-first {
@@ -72,7 +73,7 @@ margin-right: 100px;
 
 .container {
     width: 1440px;
-    margin-left: 80px;
+   padding-left: 80px;
 }
 
 .blue-box {
@@ -117,6 +118,8 @@ h2 {
 .text {
     font-weight: 400;
     font-size: 25px;
+    margin-bottom: 0%;
+    
 }
 
 .cont {
@@ -159,3 +162,33 @@ h2 {
     margin: 0%;
     padding: 0%;
 }
+
+.price {
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 0%;
+}
+
+.how-many {
+    margin-left: -80px;
+    background-color: #EFEFEF;
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: #9DC9C8;
+    margin-left: -80px;
+    padding-left: 80px;
+    padding-top: 120px;
+    margin-top: 0%;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+ .footer-box {
+    width: 300px;
+    margin-right: 80px;
+ }
