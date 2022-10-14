@@ -51,13 +51,18 @@ h1 {
    display: flex; 
 }
 
+.text-box{
+width: 660px;
+margin-right: 100px;
+}
+
 .image-first {
     width: 300px;
     height: 350px;
 }
 .image-second {
-    width: 240px;
-    height: 180px;
+    width: 230px;
+    height: 200px;
 }
 
 .container {
@@ -95,4 +100,26 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 55px;
+}
+
+.about-course {
+    width: 660px;
+    height: 380px;
+    margin: 0px;
+    padding:0px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.cont {
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.lessons {
+    width: 160px;
+    height: 90px;
 }
