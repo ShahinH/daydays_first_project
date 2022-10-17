@@ -19,7 +19,8 @@
     width: 19.25px;
   }
   h1 {
-    width: 292.63px;
+    width: 100%;
+    font-size: 35px;
   }
   .header-sub-text {
     width: 364.4px;
