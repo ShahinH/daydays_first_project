@@ -7,5 +7,42 @@
         --card-header-text-size: 15px;
         --program-card-header-text-size: 17px;
     }
+    .image-second {
+        display: none;
+      }
+    
+      .logo-image {
+        width: 52.19px;
+      }
+      .icon {
+        width: 19.25px;
+      }
+      h1 {
+        width: 100%;
+      }
+      .header-sub-text {
+        width: 364.4px;
+      }
+      .image-first {
+        width: 141.66px;
+        height: 206.18px;
+      }
+      .blue-box {
+        width: 225.36px;
+    
+        background: #1e4681;
+        border-radius: 2.32986px;
+      }
+      .text-in-blue {
+        width: 200.64px;
+    
+        font-size: 11px;
+        line-height: 130%;
+        color: #ffffff;
+      }
+      .card {
+        width: 50%;
+        height: 50%;
+      }
     
 }
