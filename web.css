@@ -14,8 +14,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
 }
 
 .logo-image{
@@ -32,8 +32,8 @@ font-family: 'Roboto Slab', serif;
 h1 {
     font-weight:700;
     font-size: 80px;
-    width: 630;
-    height: 200;
+    width: 630px;
+    height: 200px;
     margin: 0px 0px;
 }
 
@@ -83,6 +83,7 @@ margin-bottom: 30px;
     color: white;
     background-color: #1E4681;
     align-items: center;
+    justify-content: center;
 }
 
 .text-in-blue {
@@ -124,6 +125,7 @@ h2 {
 
 .cont {
     justify-content: space-around;
+    width: 1200px;
     
 }
 
@@ -145,17 +147,19 @@ h2 {
     border-radius: 15%;
 }
 .card-image{
-    height: 60%;
+    height: 100%;
     margin: 0%
     padding 0%;
+    border-radius: 15%;
+    
 }
 
 .img-size {
     margin: 0%;
     padding-top: 0%;
-    position: relative;
     width: 100%;
     height: 50%;
+    
 }
 
 .card-text {
@@ -173,7 +177,38 @@ h2 {
     margin-left: -80px;
     background-color: #EFEFEF;
     margin-bottom: 0%;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
+}
+
+.ekaterina{
+    border-radius: 20px;
+    background-color: white;
+    width: 790px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-left: 80px;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+.image-ekaterina {
+    width: 190px;
+}
+
+.text-ekaterina {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text-ekaterina-head{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.social-icons{
+    width: 30px;
+    height: 30px;
 }
 
 .footer {
@@ -191,4 +226,9 @@ h2 {
  .footer-box {
     width: 300px;
     margin-right: 80px;
+ }
+
+ .left-margin {
+    padding-left: 80px;
+    padding-top: 100px;
  }
