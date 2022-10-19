@@ -1,11 +1,49 @@
 @media (max-width: 991px) and (min-width: 320px) {
-    :root {
-        --main-text-size: 37px;
-        --secondary-text-size: 10px;
-        --header-text-size: 26px;
-        --content-text-size: 12px;
-        --card-header-text-size: 12px;
-        --program-card-header-text-size: 14px;
-    }
-    
+  :root {
+    --main-text-size: 37px;
+    --secondary-text-size: 10px;
+    --header-text-size: 26px;
+    --content-text-size: 12px;
+    --card-header-text-size: 12px;
+    --program-card-header-text-size: 14px;
+  }
+
+  .image-second {
+    display: none;
+  }
+
+  .logo-image {
+    width: 52.19px;
+  }
+  .icon {
+    width: 19.25px;
+  }
+  h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+  .header-sub-text {
+    width: 364.4px;
+  }
+  .image-first {
+    width: 141.66px;
+    height: 206.18px;
+  }
+  .blue-box {
+    width: 225.36px;
+
+    background: #1e4681;
+    border-radius: 2.32986px;
+  }
+  .text-in-blue {
+    width: 200.64px;
+
+    font-size: 11px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  .card {
+    width: 30%;
+    height: 30%;
+  }
 }
