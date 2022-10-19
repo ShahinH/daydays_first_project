@@ -18,23 +18,23 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.head {
+
+ }
+
 .logo-image{
-    width: 110px;
-    height: 65;
+    width: 5%;
     margin-bottom: 80px;
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 4%;
     margin: 10px;
 }
 h1 {
     font-weight:700;
     font-size: 80px;
-    width: 630px;
-    height: 200px;
-    margin: 0px 0px;
+    margin-right: 5%;
 }
 
 .header-sub-text {
@@ -44,11 +44,41 @@ h1 {
 }
 
 .first-box {
-    width: 1000px;
+    width: 100%;
+}
+
+.image-first {
+    width: 100%;
+    min-width: 40%;
+    
+}
+.image-first-div {
+width: 20%;
+}
+
+.image-second {
+    width: 100%;
+    height: 100%;
+    margin-right: 5%;
 }
 
 .flex {
    display: flex; 
+}
+
+.cont {
+    width: 100%;
+    display: flex;
+}
+
+.lessons {
+    width: 160px;
+    height: 90px;
+    margin: 3%;
+}
+
+.lesson-div {
+    width: 20%;
 }
 
 .grid {
@@ -63,27 +93,21 @@ margin-right: 100px;
 margin-bottom: 30px;
 }
 
-.image-first {
-    width: 300px;
-    height: 350px;
-}
-.image-second {
-    width: 230px;
-    height: 200px;
-}
-
 .container {
     width: 100%;
    padding-left: 80px;
 }
 
 .blue-box-div{
+    display: flex;
     width: 100%;
+    justify-content: center;
+    padding: 5%;
+    margin-left: -10%;
 }
 
 .blue-box {
     width: 35%;
-    height: 200px;
     align-content: center;
     color: white;
     background-color: #1E4681;
@@ -128,19 +152,9 @@ h3 {
     
 }
 
-.cont {
-    justify-content: space-around;
-    width: 1200px;
-    
-}
-
-.lessons {
-    width: 160px;
-    height: 90px;
-}
-
 .format-box {
-    width: 220px;
+    width: 15%;
+    margin: 3%;
 }
 
 .card {
@@ -243,4 +257,16 @@ h3 {
 
  .test {
     position: static;
+ }
+
+ .blue-font {
+    color: #1D447D;
+ }
+
+ .header-div {
+    width: 100%;
+ }
+
+ .header-box {
+    width: 50%;
  }
